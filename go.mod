@@ -2,14 +2,16 @@ module github.com/qzhodl/blob-downloader
 
 go 1.19
 
-require github.com/spf13/cobra v1.7.0
+require (
+	github.com/ethereum/go-ethereum v1.11.6
+	github.com/spf13/cobra v1.7.0
+)
 
 require (
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
 	github.com/deckarep/golang-set/v2 v2.1.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
-	github.com/ethereum/go-ethereum v1.11.6 // indirect
 	github.com/go-ole/go-ole v1.2.1 // indirect
 	github.com/go-stack/stack v1.8.1 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
