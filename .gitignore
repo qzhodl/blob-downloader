@@ -1,1 +1,5 @@
 blob-downloader
+file*.txt
+dl_file*.txt
+blob-utils
+launch.json
